@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mardo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/myproject.css">
+</head>
+<body>
+    <header>
+        <section>
+       <div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#About">About</a>
+                  <a class="nav-link" href="#Experience/Education">Experience/Education</a>
+                  <a class="nav-link" href="#contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+       </div>
+        </section>
+
+        <section>
+          <img id="backdrop" style="height: 35rem; width: 100rem" src="./assets/images/pexels-bel-4976498(1).jpg">
+       <div style=" margin-top:10rem;">
+        <center style="position:relative; top: -35rem">
+        <img  class="Hero" src="./assets/images/WhatsApp Image 2022-06-20 at 6.29.18 PM.jpeg">
+        <h1 class="mardo"> 
+          Mardo Saayman
+        </h1>
+        </center>
+        <div id="driehoek1"></div>
+        <div id="driehoek2"></div>
+        <div id="driehoek3"></div>
+        <div id="driehoek4"></div>
+       </div>
+        </section>
+
+        <main> 
+          <section>
+            <div>
+              <div class="card" style="width: 80% ; margin:auto; position: relative; top: -10rem">
+                <div class="card-body">
+                  <center>
+                  <h3 class="card-title" id="About" >About me</h3>
+                  <p class="card-text"> If you ever hear my friends call me a 'Joburg boet' despite what you would think because of my accent, it's actually the truth. I was
+                  born in Gauteng and lived there up until the age of 11, which is when we moved to Cape Town. You know I actually thought Gauteng is such
+                  a nice place to live... but then I got a taste of the mother city and I'm telling you, I'll never move back. My mother originally came 
+                  from Cape Town so she wasn't happy about living in Gauteng. She always said that the only nice things about Gauteng was the weather and 
+                  the road to Cape Town. I want to be a Computer programmer one day, not necessarily a website developer though which is ironic since that
+                  is exactly what I'm sitting here doing. I just want to write programs for a company one day. I also enjoy playing rugby but do not intend 
+                  to play after school.</p>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <br>
+
+          <section> 
+            <div>
+              <div class="card" style="width: 80% ; margin:auto">
+                <div class="card-body">
+                  <center>
+                  <h3 class="card-title" id="Experience/Education" >Experience/Education</h3>
+                  <p class="card-text"> 
+                   When we were living in Gauteng I attended Hennopspark Primary School. I completed grade 4 there and then we moved to Cape Town.
+                   After thoroughly evaluating our options, my parents sent me to Eversdal Primary School. Before I could blink twice I had to choose which high school 
+                   I was going to attend. I don't think I really had a choice because my brother was in Stellenberg, but I don't regret going there at all, after all, if 
+                   I didn't go there, I wouldnt have the opportunity to create my own website. I intend to matriculate next year and then study at the university of Stellenbosch.
+                  </p>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+    </header>
+
+    <footer style="position: relative; top: 7rem">
+      <div class="container" id="contact">
+        <div class="row" style="margin-top:5%; margin-bottom:2%">
+            <h1>Contact</h1>
+        </div>
+        <form method="post" name="contact_form" action="javascript:;" onsubmit="contact()">
+            <div class="row">
+                <div class="col-6 col-12-mobilep" style="margin-bottom: 2%;">
+                    <input class="form-control" type="text" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-mobilep" style="margin-bottom: 2%;">
+                    <input class="form-control" type="email" id="email" placeholder="Email" />
+                </div>
+                <div class="col-12" style="margin-bottom: 2%;">
+                    <input class="form-control" type="text" id="subject" value="" placeholder="Subject" />
+                </div>
+                <div class="col-12" style="margin-bottom: 2%;">
+                    <textarea class="form-control" id="message" placeholder="Message" rows="6"></textarea>
+                </div>
+                <div class="col-12" style="margin-bottom: 2%;">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="./assets/JS/jquery.min.js"></script>
+    <script src="./assets/JS/contact.js"></script>
+    </footer>
+</body>
+</html>

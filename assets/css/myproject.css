@@ -1,0 +1,56 @@
+.Hero {
+height:10rem;
+width:10rem;
+border-radius: 30%;
+}
+
+#backdrop {
+    z-index: 2;
+}
+
+#driehoek1 {   
+    width: 0;
+    height: 0;
+    border-left: 1400px solid transparent;
+    border-bottom: 400px solid #87CEFA;
+    position: absolute;
+    top: 20rem;
+    right: 0rem;
+}
+
+#driehoek2 {   
+    width: 0;
+    height: 0;
+    border-right: 1400px solid transparent;
+    border-bottom: 400px solid #87CEFA;
+    position: absolute;
+    top: 20rem;
+    left: 0rem;
+}
+
+#driehoek3 {   
+    width: 0;
+    height: 0;
+    border-left: 1400px solid transparent;
+    border-bottom: 400px solid white;
+    position: absolute;
+    top: 23rem;
+    right: 0rem;
+    z-index:1;
+}
+
+#driehoek4 {   
+    width: 0;
+    height: 0;
+    border-right: 1400px solid transparent;
+    border-bottom: 400px solid white;
+    position: absolute;
+    top: 23rem;
+    left: 0rem;
+    z-index:1;
+}
+
+.mardo{
+   color: white;     
+}
+
